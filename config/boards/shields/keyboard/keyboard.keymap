@@ -11,7 +11,7 @@
         compatible = "zmk,keymap";
         zero_layer {
             bindings = <
-                &mkp RCLK &mkp MCLK &mkp MB4  &mkp MB5
+                &sys_reset &mkp MCLK &mkp MB4  &mkp MB5
                 &mkp LCLK            &mo 1
             >;
         };
